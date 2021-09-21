@@ -79,6 +79,7 @@ function uploadFileChunk(fileChunks, fileName, currentPart, totalPart) {
   });
 }
 
+// Only uses with Sitefinity
 function assetPost(fileName) {
   var body = {
     folderId: "",
